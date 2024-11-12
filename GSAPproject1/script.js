@@ -115,7 +115,7 @@ function sectionThreeAnim(){
 
     let tl3 = gsap.timeline({
         scrollTrigger:{
-            trigger:'#section3',
+            trigger:'#contact',
             scroller:"body",
             start: "top 50%",
             end: "top 0%",
