@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif ;
+}
+
+html, body{
+    height: 100%;  
+    width: 100%;
+}
+
+body{
+    overflow-x:hidden ;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 8rem;
+}
+
+#rightSide{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+nav h1{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+nav h4{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav button{
+    border: 0.1rem solid black;
+    padding: 0.6rem 0.8rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+
+#leftSide{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+nav i{
+    font-size:2rem ;
+    display: inline-block;
+    rotate: 45deg;
+}
+
+#center{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding: 3rem 8rem;
+}
+
+.part1{
+   height:100%;
+   width:40%;
+}
+
+
+.part1 h1{
+   font-size: 4.2rem;
+   line-height: 1.1;
+
+}
+
+.part1 p{
+    font-size: 1.2rem;
+    width: 90%;
+    line-height: 1.3;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.part1 button{
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.part2{
+    height:100%;
+    width:55%;
+    position: relative;
+}
+
+.part2 img{
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.imgBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 8rem ;
+    overflow: hidden;
+}
+
+.imgBanner img{
+    width: 10%;
+    aspect-ratio: 6/2;
+    mix-blend-mode: color-burn;
+    object-fit: cover;
+    color:black;
+    filter: grayscale(2);
+
+}
+
+.section2 .services{
+    padding: 1.5rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    
+}
+
+.services h3{
+     background-color: #9ae975;
+     font-weight: 500;
+     padding: 1rem 2rem;
+     border-radius: .5rem;
+     font-size: 2rem;
+}
+
+.services p{
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+
+.container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 8rem;
+}
+
+.card{
+    flex-shrink: 0;
+    height: 15rem;
+    width: 46%;
+    border: 3px solid black;
+    border-radius: 1.1rem;
+    box-shadow: 0px 15px 0px black;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSide{
+     height: 100%;
+     width: 50%;
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     flex-direction: column;
+}
+
+.rightSide{
+    height: 100%;
+    width: 50%;
+}
+
+.rightSide img{
+    height: 100%;
+}
+
+.leftSide h2{
+    font-size: 1.5rem;
+    background-color: #9ae975;
+    font-weight: 500;
+    font-family: 'Lato';
+    width: 70%;
+    border-radius: 1rem;
+    padding: .2rem;
+}
+
+.leftSide h4{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    gap: 1rem;
+}
+
+.leftSide h4 i{
+    background-color: black;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    padding: .5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.black h4{
+    color:white;
+}
+
+.black h4 i{
+    color:black;
+    background-color: white;
+}
+
+.black .leftSide h2{
+    background-color: white;
+}
+
+.card:nth-last-child(1) .leftSide h2{
+         width: 50%;
+         padding: .3rem;
+
+}
+
+#section3{
+    height: 20%;
+    width: 100%;
+    padding: 1rem 8rem;
+
+}
+
+#contact{
+    background-color: #F3F3F3;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.8rem;
+}
+
+#leftSideCont{
+    width: 50%;
+    padding: 4rem 5rem;
+}
+
+#rightSideCont{
+    width: 50%;
+    position: relative;
+}
+
+#leftSideCont h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#leftSideCont p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 1.5rem 0;
+}
+
+#leftSideCont button{
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+#rightSideCont img{
+    height: 100%;
+    position: absolute;
+    right: 25%;
+    top:0;
+}
